@@ -1,11 +1,11 @@
 # Petful
 
-This is where dogs and cats are adopted. Adoption here is first in, first out. Adoption is possible after the early adopter is over.
-
+This is where dogs and cats are adopted. Adoption here is first in, first out. Adoption is possible after you reach the top of the list.
 ## Link
 
-Live app :
-## What I Use for App
+Live app: https://petful-app-main.vercel.app/ 
+Client repo: https://github.com/Cheyenne-development/petful
+## What I Used for App
 
 ### Back End
 
@@ -50,7 +50,7 @@ POST  /api/people
 | :------------|----------------------|
 |   name       | string, required     |
 
-Create a new person to the queue
+Adss a new person to the queue
 
 
 ```http
@@ -72,7 +72,7 @@ Provides array of all cats in the queue
 DELETE  /api/cats
 ```
 
-Delete first cat in the queue
+Deletes first cat in the queue
 
 #### Dog Endpoint
 
@@ -86,5 +86,5 @@ Provides array of all dogs in the queue
 DELETE  /api/dogs
 ```
 
-Delete first dog in the queue
+Deletes first dog in the queue
 
